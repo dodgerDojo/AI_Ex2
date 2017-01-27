@@ -12,6 +12,9 @@ public class Ex2
 	private int num_of_points;
 	private int points[][];
 	
+	/*
+	 * This Class handles the execution of the exercise.
+	 */	
 	public Ex2(String input_file)
 	{
 		try

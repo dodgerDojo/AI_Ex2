@@ -7,6 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+/*
+ * This Class handles the execution of the exercise
+ */
 public class java_ex3
 {	
 	private String type;
@@ -193,7 +196,7 @@ public class java_ex3
     }
     
 	/*
-	 * This Class handles the execution of the exercise.
+	 * Parse the input file.
 	 */	
 	public java_ex3(String input_file) throws IOException
 	{

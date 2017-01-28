@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class Ex2
+public class java_ex2
 {	
 	private String type;
 	private int target_amount;
@@ -163,7 +163,7 @@ public class Ex2
         }	
     }
     
-	public Ex2(String input_file) throws IOException
+	public java_ex2(String input_file) throws IOException
 	{
 			String[] input_lines = readLines(input_file);
 			
@@ -227,7 +227,7 @@ public class Ex2
 	{
 		try
 		{
-			Ex2 ex2 = new Ex2("input.txt");
+			java_ex2 ex2 = new java_ex2("input.txt");
 		}
 		catch (IOException e)
 		{
